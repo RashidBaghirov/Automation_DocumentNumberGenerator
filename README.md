@@ -89,7 +89,7 @@ contract_number, number_only = generator.generate_sequential_contract_number(120
 print(f"Generated: {contract_number}")
 ```
 
-## ⚙ Configuration
+##  Configuration
 
 ### Template Requirements
 Your Word template must contain a bookmark named `document_number` where the contract number will be inserted.
@@ -108,7 +108,7 @@ Generated numbers follow the pattern: `MQ-YYYYMMDD-XXX`
 
 Example: `MQ-20250820-120`
 
-## 🖨 Printer Configuration
+##  Printer Configuration
 
 The system automatically:
 - Detects all available printers
